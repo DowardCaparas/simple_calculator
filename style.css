@@ -1,0 +1,51 @@
+main {
+    background-color: #F1DCAB;
+    padding: 22px;
+    max-width: 22rem;
+    margin: 80px auto;
+}
+
+.buttons_container {
+    display: flex;
+    gap: 12px;
+}
+
+.output_content {
+    display: inline-grid;
+    gap: 5px;
+    background-color: #fff;
+    padding: 5px;
+    width: 97%;
+}
+
+#previous_value, #user_input {
+    height: 20px;
+    font-size: 1.5rem;
+    padding: 5px;
+    width: 97%;
+}
+
+#numbers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.number_button, .dot, .operator_button, .action_button {
+    padding: 20px;
+    box-shadow: 2px 5px 5px #846D5B;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.number_button:nth-child(10) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#operators, #clear_backspace_equal {
+    display: inline-grid;
+    gap: 12px;
+    margin-top: 20px;
+}
